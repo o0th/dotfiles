@@ -56,7 +56,7 @@ set mouse=a
 set smartindent
 
 " Start scrolling before the last line
-set scrolloff=4
+set scrolloff=10
 
 " Disable swap files
 set noswapfile
