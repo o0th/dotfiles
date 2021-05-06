@@ -33,7 +33,22 @@ else
   source ~/.config/nvim/fuzzy.vim
   source ~/.config/nvim/coc.vim
   source ~/.config/nvim/terraform.vim
+
+  " Set dracula theme
+  colorscheme dracula
 endif
+
+" Set true colors
+set termguicolors
+
+" Enable syntax
+syntax enable
+
+" Highlight current line
+set cursorline
+
+" Show line number
+set number
 
 " Enable mouse support
 set mouse=a
