@@ -35,6 +35,9 @@ else
 
   " Set dracula theme
   colorscheme dracula
+
+  " Disable mode indicator
+  set noshowmode
 endif
 
 " Set true colors
@@ -60,9 +63,6 @@ set scrolloff=10
 
 " Disable swap files
 set noswapfile
-
-" Disable mode indicator
-set noshowmode
 
 " Set jk to esc
 :imap jk <Esc>
