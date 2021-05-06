@@ -64,6 +64,9 @@ set scrolloff=10
 " Disable swap files
 set noswapfile
 
+" Use system clipboard
+set clipboard=unnamedplus
+
 " Set jk to esc
 :imap jk <Esc>
 
