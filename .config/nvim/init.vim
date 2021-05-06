@@ -28,7 +28,6 @@ else
   call plug#end()
 
   " Plugins options
-  source ~/.config/nvim/dracula.vim
   source ~/.config/nvim/airline.vim
   source ~/.config/nvim/fuzzy.vim
   source ~/.config/nvim/coc.vim
