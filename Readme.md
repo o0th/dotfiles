@@ -1,3 +1,11 @@
+### kitty
+
+Dotfile installation
+
+```bash
+ln -s $HOME/.config/kitty .config/kitty
+```
+
 ### neovim
 
 Dotfile installation
