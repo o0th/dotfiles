@@ -1,5 +1,9 @@
 ### Dependencies
 
+```bash
+sudo pacman -S neovim tmux zsh kitty
+```
+
 [dracula](https://draculatheme.com/)
 [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 [nvm](https://github.com/nvm-sh/nvm)
@@ -29,7 +33,7 @@ sudo pacman -S xclip
 Fuzzy
 
 ```bash
-sudo pacman -S ripgrep
+sudo pacman -S ripgrep fzy
 ```
 
 Terraform-ls
