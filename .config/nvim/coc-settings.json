@@ -13,5 +13,6 @@
       "settings": {}
     }
   },
-  "json.format.enable": true
+  "json.format.enable": true,
+  "eslint.autoFixOnSave": true
 }

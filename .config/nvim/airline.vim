@@ -13,3 +13,4 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 
 " Show git branch
 let g:airline#extensions#branch#enabled = 1
+
