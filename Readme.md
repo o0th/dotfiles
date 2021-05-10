@@ -50,3 +50,16 @@ Dotfile installation
 ln -s $HOME/.tmux.conf .tmux.conf
 ```
 
+### sh
+
+Generate a new ssh key
+
+```bash
+ssh-keygen -o -a 100 -t ed25519
+```
+
+Dotfile installation
+```bash
+ln -s $HOME/.ssh/config .ssh/config
+```
+
