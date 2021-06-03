@@ -14,5 +14,6 @@
     }
   },
   "json.format.enable": true,
+  "yaml.format.enable": true,
   "eslint.autoFixOnSave": true
 }
