@@ -1,3 +1,7 @@
+if &shell =~# 'fish$'
+  set shell=sh
+endif
+
 " Install vim-plug if it is not intsalled and install all the plugins
 if ! filereadable(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/autoload/plug.vim"'))
   echo "Downloading junegunn/vim-plug to manage plugins..."
@@ -27,6 +31,7 @@ else
     " Languages
     Plug 'hashivim/vim-terraform'
     Plug 'pangloss/vim-javascript'
+    Plug 'dag/vim-fish'
   call plug#end()
 
   " Plugins options
