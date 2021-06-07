@@ -22,6 +22,7 @@ else
     Plug 'cloudhead/neovim-fuzzy'
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
+    Plug 'Yggdroot/indentLine'
     " Autocompletion
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'jiangmiao/auto-pairs'
@@ -46,6 +47,8 @@ else
 
   " Disable mode indicator
   set noshowmode
+
+  let g:indentLine_char = '›'
 endif
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
