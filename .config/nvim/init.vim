@@ -17,9 +17,9 @@ else
     \| endif
 
   call plug#begin(stdpath('data') . '/plugged')
-    " interface
+    " Interface
     Plug 'vim-airline/vim-airline'
-    Plug 'cloudhead/neovim-fuzzy'
+    Plug 'o0th/neovim-fuzzy', { 'branch': 'hidden-files' }
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'Yggdroot/indentLine'
@@ -27,13 +27,17 @@ else
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'jiangmiao/auto-pairs'
     Plug 'editorconfig/editorconfig-vim'
-    " themes
+    " Themes
     Plug 'dracula/vim', { 'as': 'dracula' }
     " Languages
     Plug 'hashivim/vim-terraform'
     Plug 'pangloss/vim-javascript'
     Plug 'dag/vim-fish'
-  call plug#end()
+    Plug 'digitaltoad/vim-pug'
+    Plug 'fatih/vim-go'
+    " Extra
+    Plug 'wakatime/vim-wakatime'
+    call plug#end()
 
   " Plugins options
   source ~/.config/nvim/airline.vim
