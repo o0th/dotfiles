@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/o0th/.local/share/nvim/plugged/neovim-fuzzy/plugin'
+let g:netrw_dirhist_8='/home/o0th/Projects/gitlab.com/o0th/dotfiles'
+let g:netrw_dirhist_7='/home/o0th'
+let g:netrw_dirhist_6='/home/o0th/.config'
+let g:netrw_dirhist_5='/home/o0th/.config/fish'
+let g:netrw_dirhist_4='/home/o0th/.config/fish/conf.d'
+let g:netrw_dirhist_3='/home/o0th/.config/spotify'
+let g:netrw_dirhist_2='/home/o0th/Projects/ILC-Technology/poseidon-fastclient/infra'
+let g:netrw_dirhist_1='/home/o0th/Projects/o0th/midnabot/modules/about'
