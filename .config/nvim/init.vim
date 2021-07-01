@@ -53,6 +53,7 @@ else
   set noshowmode
 
   let g:indentLine_char = '›'
+  let g:indentLine_concealcursor = "nv"
 endif
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
@@ -105,6 +106,7 @@ set noswapfile
 
 " Use system clipboard
 set clipboard=unnamedplus
+
 
 " Set jk to esc
 :imap jk <Esc>
