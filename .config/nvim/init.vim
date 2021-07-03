@@ -19,7 +19,7 @@ else
   call plug#begin(stdpath('data') . '/plugged')
     " Interface
     Plug 'vim-airline/vim-airline'
-    Plug 'o0th/neovim-fuzzy', { 'branch': 'hidden-files' }
+    Plug 'cloudhead/neovim-fuzzy', { 'branch': 'master' }
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'Yggdroot/indentLine'
@@ -106,7 +106,6 @@ set noswapfile
 
 " Use system clipboard
 set clipboard=unnamedplus
-
 
 " Set jk to esc
 :imap jk <Esc>
