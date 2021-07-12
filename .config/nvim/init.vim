@@ -54,6 +54,8 @@ else
 
   let g:indentLine_char = '›'
   let g:indentLine_concealcursor = "nv"
+
+  autocmd Filetype json let g:indentLine_setConceal = 0
 endif
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
