@@ -134,4 +134,4 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>w
 
-let g:coc_global_extensions = ['coc-json', 'coc-format-json', 'coc-tsserver', 'coc-css', 'coc-python', 'coc-eslint', 'coc-stylelint', 'coc-go', 'coc-docker', 'coc-yaml', 'coc-fish', 'coc-toml', 'coc-sh']
+let g:coc_global_extensions = ['coc-json', 'coc-format-json', 'coc-tsserver',  'coc-css', 'coc-python', 'coc-eslint', 'coc-stylelint', 'coc-go', 'coc-docker', 'coc-yaml', 'coc-fish', 'coc-toml', 'coc-sh', 'coc-tslint-plugin']

@@ -20,15 +20,18 @@ else
     " Interface
     Plug 'vim-airline/vim-airline'
     Plug 'cloudhead/neovim-fuzzy', { 'branch': 'master' }
+    Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'Yggdroot/indentLine'
+    Plug 'eugen0329/vim-esearch'
     " Autocompletion
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'jiangmiao/auto-pairs'
     Plug 'editorconfig/editorconfig-vim'
     " Themes
     Plug 'dracula/vim', { 'as': 'dracula' }
+    Plug 'arcticicestudio/nord-vim'
     " Languages
     Plug 'hashivim/vim-terraform'
     Plug 'pangloss/vim-javascript'

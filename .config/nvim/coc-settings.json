@@ -1,5 +1,5 @@
 {
-    "languageserver": {
+  "languageserver": {
     "terraform": {
       "command": "terraform-ls",
       "args": [
@@ -15,5 +15,6 @@
   },
   "json.format.enable": true,
   "yaml.format.enable": true,
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true
 }
