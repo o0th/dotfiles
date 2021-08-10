@@ -38,6 +38,7 @@ else
     Plug 'dag/vim-fish'
     Plug 'digitaltoad/vim-pug'
     Plug 'fatih/vim-go'
+    Plug 'posva/vim-vue'
     " Extra
     Plug 'wakatime/vim-wakatime'
     call plug#end()
