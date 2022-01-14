@@ -34,6 +34,8 @@ lvim.builtin.lualine.options.theme = "dracula"
 lvim.builtin.nvimtree.side = "left"
 lvim.builtin.nvimtree.show_icons.git = 1
 
+lvim.builtin.lualine.sections.lualine_b = {'branch', {'filename', path = 1 }}
+
 -- plugins
 lvim.plugins = {
   { "dracula/vim", name = "dracula" },
@@ -49,3 +51,18 @@ lvim.keys.normal_mode = {
   ["<Leader>["] = ":BufferPrevious<CR>",
 }
 
+-- dashboard
+lvim.builtin.dashboard.custom_header = {
+  "                                             ",
+  "              @@@@@@@@     @@@    @@@        ",
+  "             @@@@@@@@@@    @@@    @@@        ",
+  "             @@!   @!@@  @@@@!@@  @@!        ",
+  "             !@!  @!@!@  @@!@!@@  !@!        ",
+  "    @@@@@@   @!@ @! !@!    @!!    @!@!@@@    ",
+  "   @@@  @@@  !@!!!  !!!    !!!    !!!@!@@!   ",
+  "   @!:  @!!  !!:!   !!!    !!:    !!:  !!!   ",
+  "   :!:  !:!  :!:    !:!    :!:    :!:  !:!   ",
+  "   ::::: ::  ::::::: ::     ::    ::   :::   ",
+  "    : :  :    : : :  :       :    :    : :   ",
+  "                                             ",
+}

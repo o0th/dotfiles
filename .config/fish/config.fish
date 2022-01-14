@@ -15,7 +15,9 @@ fundle init
 
 alias ..='cd ..'
 
-alias v='nvim'
+alias v='lvim'
+alias cat='bat'
+alias ls='exa --icons --time-style long-iso'
 
 alias g='git'
 alias gs='git status -u'

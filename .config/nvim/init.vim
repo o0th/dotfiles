@@ -21,8 +21,8 @@ else
     Plug 'vim-airline/vim-airline'
     Plug 'cloudhead/neovim-fuzzy', { 'branch': 'master' }
     Plug 'junegunn/fzf.vim'
-    Plug 'airblade/vim-gitgutter'
-    Plug 'tpope/vim-fugitive'
+    " Plug 'airblade/vim-gitgutter'
+    " Plug 'tpope/vim-fugitive'
     Plug 'Yggdroot/indentLine'
     Plug 'eugen0329/vim-esearch'
     " Autocompletion
