@@ -31,12 +31,6 @@ alias k='kubectl'
 
 
 #
-# Variables
-#
-
-set -x GH_PACKAGES_TOKEN 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
-
-#
 # Paths
 #
 
