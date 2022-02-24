@@ -29,7 +29,17 @@ alias ta='terraform apply'
 
 alias k='kubectl'
 
+
+#
+# Variables
+#
+
+set -x GH_PACKAGES_TOKEN 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
+
+#
 # Paths
+#
+
 set -U fish_user_paths /home/o0th/.local/bin $fish_user_paths
 set -U fish_user_paths /home/o0th/.nvm/versions/node/(nvm current)/bin $fish_user_paths
 set -U fish_user_paths /home/o0th/go/bin $fish_user_paths
