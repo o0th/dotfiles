@@ -10,6 +10,7 @@
 
     hyprland = {
       url = "git+https://github.com/hyprwm/Hyprland?submodules=1";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
@@ -31,11 +32,20 @@
 	{
 	  home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.o0th = import ./users/o0th.nix;
+          home-manager.users.o0th = import ./home.nix;
 	  home-manager.backupFileExtension = "backup";
           home-manager.extraSpecialArgs = attrs;
 	}
       ];
+    };
+
+    homeConfigurations.o0th = home-manager.lib.homeManagerConfiguration {
+        pkgs = import nixpkgs { system = "x86_64-linux"; };
+        modules = [
+          ({ config, pkgs, ... }: { nixpkgs.overlays = [ overlay-unstable ]; })
+	  ./home.nix
+	];
+        extraSpecialArgs = attrs;
     };
   };
 }
